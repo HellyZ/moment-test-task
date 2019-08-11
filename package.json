@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-bootstrap-table-next": "^3.1.7",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.0"
+    "react-expandable-table": "0.0.6",
+    "react-light-accordion": "^0.1.4",
+    "react-sanfona": "^1.4.0",
+    "react-scripts": "3.1.0",
+    "react-table": "^6.10.0",
+    "reactstrap": "^8.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
