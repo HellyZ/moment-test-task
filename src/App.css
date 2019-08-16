@@ -5,6 +5,7 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  -webkit-animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
@@ -18,11 +19,101 @@
   font-size: 1.5em;
 }
 
+.material-icons {
+  font-size: 18px;
+}
+.btn-link {
+  color: #035df2;
+}
 .App-intro {
   font-size: large;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn {
+  margin: 0 10px 10px 0;
+  
+}
+
+.panel-heading {
+  background-color: #ddd;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+}
+
+/* .material-icons {
+  vertical-align: baseline;
+} */
+
+.container-fluid, .container {
+  
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.panel-title {
+  /* //: сверху, справа, снизу, слева */
+  word-wrap: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newButton {
+  order: 3;
+  /* width: 130px;
+  background-color: white; */
+}
+
+.table-name {
+  order: 1
+}
+.edit {
+  color: #035df2;
+  font-size: 16px;
+  border: none;
+  /* background:url('./twotone-edit-24px.svg') no-repeat left center; */
+  padding-left:20px;
+  margin-left: 15px;
+}
+
+.edit:hover {
+  color: #035df2;
+}
+
+.pull-right{
+  float: right
+}
+
+.pull-left {
+  float: left;
+}
+
+.toggleForm {
+  padding: 10px 0 0 0;
+}
+
+.toggleFormArea {
+  display: none;
+}
+
+.collapse {
+  padding: 20px 0 20px 20px;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+

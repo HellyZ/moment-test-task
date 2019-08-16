@@ -1,1 +1,475 @@
-[{"accountNumber":"3000","externalTaxCode":null,"externalRevenueClass":null,"name":"Salgsinntekter avgiftspliktig","comment":null,"currentVatPercentage":25.00,"vatCategoryCode":"S","financialAccountCategory":"purchases","id":113543,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113543"}]},{"accountNumber":"3090","externalTaxCode":null,"externalRevenueClass":null,"name":"Viderefakturerte utlegg avgiftspliktig","comment":null,"currentVatPercentage":25.00,"vatCategoryCode":"S","financialAccountCategory":"sales","id":113545,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113545"}]},{"accountNumber":"3100","externalTaxCode":null,"externalRevenueClass":null,"name":"Salgsinntekter avgiftsfritt","comment":null,"currentVatPercentage":0.00,"vatCategoryCode":"Z","financialAccountCategory":"sales","id":113547,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113547"}]},{"accountNumber":"3130","externalTaxCode":null,"externalRevenueClass":null,"name":"Viderefakturerte utlegg avgiftsfritt","comment":null,"currentVatPercentage":0.00,"vatCategoryCode":"Z","financialAccountCategory":"sales","id":113549,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113549"}]},{"accountNumber":"3200","externalTaxCode":null,"externalRevenueClass":null,"name":"Salgsinntekter utenfor avgiftsområdet","comment":null,"currentVatPercentage":0.00,"vatCategoryCode":"Z","financialAccountCategory":"sales","id":113551,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113551"}]},{"accountNumber":"3201","externalTaxCode":null,"externalRevenueClass":null,"name":"Produkter til utlandet","comment":null,"currentVatPercentage":5.00,"vatCategoryCode":"S","financialAccountCategory":"sales","id":174416,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/174416"}]},{"accountNumber":"7141","externalTaxCode":null,"externalRevenueClass":null,"name":"Reisekostnad, ikke opplysningspliktig, høy sats","comment":null,"currentVatPercentage":25.00,"vatCategoryCode":"0","financialAccountCategory":"purchases","id":169434,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169434"}]},{"accountNumber":"7142","externalTaxCode":null,"externalRevenueClass":null,"name":"Reisekostnad, ikke opplysningspliktig, middels sats","comment":null,"currentVatPercentage":15.00,"vatCategoryCode":"0","financialAccountCategory":"purchases","id":169435,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169435"}]},{"accountNumber":"7143","externalTaxCode":null,"externalRevenueClass":null,"name":"Reisekostnad, ikke opplysningspliktig, lav sats","comment":null,"currentVatPercentage":12.00,"vatCategoryCode":"0","financialAccountCategory":"purchases","id":169436,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169436"}]},{"accountNumber":"7799","externalTaxCode":null,"externalRevenueClass":null,"name":"Annen kostnad, ikke fradragsberettiget","comment":null,"currentVatPercentage":0.00,"vatCategoryCode":"0","financialAccountCategory":"purchases","id":169437,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169437"}]},{"accountNumber":"7799","externalTaxCode":null,"externalRevenueClass":null,"name":"Øreavrunding avgiftsfritt","comment":null,"currentVatPercentage":0.00,"vatCategoryCode":"Z","financialAccountCategory":"sales","id":113553,"companyId":1,"version":null,"links":[{"rel":"self","href":"https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113553"}]}]
+[{
+  "accountNumber": "3000",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Salgsinntekter avgiftspliktig",
+  "comment": null,
+  "currentVatPercentage": 25,
+  "vatCategoryCode": "S",
+  "financialAccountCategory": "purchases",
+  "id": 113543,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113543"
+  }]
+}, {
+  "accountNumber": "3090",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Viderefakturerte utlegg avgiftspliktig",
+  "comment": null,
+  "currentVatPercentage": 25,
+  "vatCategoryCode": "S",
+  "financialAccountCategory": "sales",
+  "id": 113545,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113545"
+  }]
+}, {
+  "accountNumber": "3100",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Salgsinntekter avgiftsfritt",
+  "comment": null,
+  "currentVatPercentage": 0,
+  "vatCategoryCode": "Z",
+  "financialAccountCategory": "sales",
+  "id": 113547,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113547"
+  }]
+}, {
+  "accountNumber": "3130",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Viderefakturerte utlegg avgiftsfritt",
+  "comment": null,
+  "currentVatPercentage": 0,
+  "vatCategoryCode": "Z",
+  "financialAccountCategory": "sales",
+  "id": 113549,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113549"
+  }]
+}, {
+  "accountNumber": "3200",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Salgsinntekter utenfor avgiftsområdet",
+  "comment": null,
+  "currentVatPercentage": 0,
+  "vatCategoryCode": "Z",
+  "financialAccountCategory": "sales",
+  "id": 113551,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113551"
+  }]
+}, {
+  "accountNumber": "3201",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Produkter til utlandet",
+  "comment": null,
+  "currentVatPercentage": 5,
+  "vatCategoryCode": "S",
+  "financialAccountCategory": "sales",
+  "id": 174416,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/174416"
+  }]
+}, {
+  "accountNumber": "7141",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Reisekostnad, ikke opplysningspliktig, høy sats",
+  "comment": null,
+  "currentVatPercentage": 25,
+  "vatCategoryCode": "0",
+  "financialAccountCategory": "purchases",
+  "id": 169434,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169434"
+  }]
+}, {
+  "accountNumber": "7142",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Reisekostnad, ikke opplysningspliktig, middels sats",
+  "comment": null,
+  "currentVatPercentage": 15,
+  "vatCategoryCode": "0",
+  "financialAccountCategory": "purchases",
+  "id": 169435,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169435"
+  }]
+}, {
+  "accountNumber": "7143",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Reisekostnad, ikke opplysningspliktig, lav sats",
+  "comment": null,
+  "currentVatPercentage": 12,
+  "vatCategoryCode": "0",
+  "financialAccountCategory": "purchases",
+  "id": 169436,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169436"
+  }]
+}, {
+  "accountNumber": "7799",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Annen kostnad, ikke fradragsberettiget",
+  "comment": null,
+  "currentVatPercentage": 0,
+  "vatCategoryCode": "0",
+  "financialAccountCategory": "purchases",
+  "id": 169437,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/169437"
+  }]
+}, {
+  "accountNumber": "7799",
+  "externalTaxCode": null,
+  "externalRevenueClass": null,
+  "name": "Øreavrunding avgiftsfritt",
+  "comment": null,
+  "currentVatPercentage": 0,
+  "vatCategoryCode": "Z",
+  "financialAccountCategory": "sales",
+  "id": 113553,
+  "companyId": 1,
+  "version": null,
+  "links": [{
+    "rel": "self",
+    "href": "https://demo.moment.team/api/1.0/companies/demo/financialAccounts/113553"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565587749275,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565587749275"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "123",
+  "currentVatPercentage": "1213",
+  "comment": "ASDASD",
+  "vatCategoryCode": "S",
+  "id": 1565590405173,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565590405173"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "00000",
+  "currentVatPercentage": "99",
+  "vatCategoryCode": "SSSSS",
+  "externalTaxCode": "C",
+  "externalRevenueClass": "A",
+  "name": "ANSDNASNDLASDASD",
+  "comment": "salkjdhflkjsdhkfs\\hldjiflsdjflsjdflkjsdlkfjnlsdjfkl",
+  "id": 1565590453407,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565590453407"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "3000",
+  "vatCategoryCode": "asdasd",
+  "externalTaxCode": "asdasd",
+  "id": 1565590545768,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565590545768"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "123",
+  "currentVatPercentage": "11",
+  "vatCategoryCode": "1",
+  "name": "1",
+  "externalRevenueClass": "1",
+  "comment": "1",
+  "id": 1565592302844,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565592302844"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "jjj",
+  "currentVatPercentage": "55",
+  "comment": "jhbjhjh",
+  "id": 1565592695452,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565592695452"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565594433839,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565594433839"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565594438336,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565594438336"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565602832071,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565602832071"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565603345812,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565603345812"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "id": 1565615885118,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565615885118"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "accountNumber": "444",
+  "id": 1565625154675,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565625154675"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "name": "123",
+  "accountNumber": "1234",
+  "currentVatPercentage": "11",
+  "vatCategoryCode": "R",
+  "id": 1565625922848,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565625922848"
+  }]
+}, {
+  "newAccount": {
+    "name": "",
+    "accountNumber": "",
+    "financialAccountCategory": "",
+    "comment": "",
+    "currentVatPercentage": "",
+    "vatCategoryCode": "",
+    "externalTaxCode": "",
+    "externalRevenueClass": ""
+  },
+  "financialAccountCategoryOptions": ["sales", "purchases"],
+  "formSubmitted": false,
+  "name": "lkmlkmlkmlk",
+  "accountNumber": "3000",
+  "currentVatPercentage": "13",
+  "vatCategoryCode": "R",
+  "id": 1565626438703,
+  "version": 1,
+  "links": [{
+    "rel": "self",
+    "href": "http://localhost:4000/account/1565626438703"
+  }]
+}]
