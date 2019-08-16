@@ -50,7 +50,7 @@ export default class AccountForm extends Component {
       event.preventDefault();
 
       let data = this.state
-
+      console.log(data);
       fetch("http://localhost:4000/accounts", {
             method: 'POST',
             body: JSON.stringify(data),
@@ -77,6 +77,7 @@ export default class AccountForm extends Component {
   }
 
   render() {
+    let accountToEdit = this.props.data;
     return (
       <form onSubmit={this.handleSubmit}>
         <div class="form-group row">

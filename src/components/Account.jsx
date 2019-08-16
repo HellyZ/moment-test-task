@@ -6,18 +6,17 @@ class Account extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
-    this.state = { collapse: false };
+    this.state = { editing: false };
   }
 
   toggle() {
-    this.setState(state => ({ collapse: !state.collapse }));
+    this.setState({ editing: !this.state.editing });
     // document.getElementsByClassName("toggleForm").css('visibility', 'visible');
   }
 
   render() {
     console.log(this.props)
     return (
-      <>
         <tr >
           <td><b>{this.props.data.accountNumber}</b></td> 
                <td>{this.props.data.financialAccountCategory}</td> 
@@ -25,21 +24,31 @@ class Account extends Component {
                <td><b>{this.props.data.name}</b></td> 
                <td>{/* EDIT ACCOUNT BUTTON HERE */}</td> 
                <td><Button color="primary" onClick={this.toggle}>Toggle</Button></td>
+               
+      <tr>
+         <td colspan="6" className="toggleForm">
+           <Collapse isOpen={this.state.editing}>
+             <Card>
+               <CardBody>
+               <FormContainer />
+               </CardBody>
+             </Card> 
+           </Collapse>
+         </td>
+       </tr>
         </tr>
     
-      <tr>
-        <td colspan="6" className="toggleForm">
-          <Collapse isOpen={this.state.collapse}>
-            <Card>
-              <CardBody>
-              <FormContainer />
-              </CardBody>
-            </Card> 
-          </Collapse>
-        </td>
-      </tr>
-        
-    </>
+      // <tr>
+      //   <td colspan="6" className="toggleForm">
+      //     <Collapse isOpen={this.state.editing}>
+      //       <Card>
+      //         <CardBody>
+      //         <FormContainer />
+      //         </CardBody>
+      //       </Card> 
+      //     </Collapse>
+      //   </td>
+      // </tr>
     );
   }
 }
